@@ -1,0 +1,66 @@
+html, body, h1, h2, h3, div, footer, ul, li, a, figure, button, textarea, form, label {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  vertical-align: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent; 
+}
+
+.container{
+  min-height: 500px;
+  height: 100%;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron{
+  background-color:#222222!important;
+  padding:10px !important;
+  color:#e4e4e4;
+  margin-bottom: 0!important;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.row.searchRow{
+  display:inline;
+  margin:auto;
+  text-align:center;
+  width:60%;
+  padding:60px 0;
+}
+
+input[type="text"]{
+  height:40px;
+  font-size:15px;
+}
+
+#error{
+  margin-top:10px;
+  color:#dc143c;
+}
+
+.forecast{
+  border:1px solid #007bff;
+  border-radius:5px;
+  text-align: center;
+}
+
+.date{
+  padding:10px;
+  background-color:#007bff;
+  color:#ffffff;
+}
+
+.mainWeather{
+  padding:10px;
+
+}
